@@ -27,6 +27,7 @@ static const char *TAG = "example";
  * It is placed into RTC memory using RTC_DATA_ATTR and
  * maintains its value when ESP32 wakes from deep sleep.
  */
+//定义休眠保存的变量
 RTC_DATA_ATTR static int boot_count = 0;
 
 static void obtain_time(void);
